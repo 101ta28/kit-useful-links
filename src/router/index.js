@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/kit-useful-links/',
+    path: '/',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
@@ -17,7 +17,7 @@ const routes = [
     ],
   },
   {
-    path: '/kit-useful-links//links',
+    path: '//links',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
@@ -31,7 +31,7 @@ const routes = [
     ],
   },
   {
-    path: '/kit-useful-links/contact',
+    path: '/contact',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
