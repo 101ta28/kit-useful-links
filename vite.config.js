@@ -39,7 +39,7 @@ export default defineConfig({
     port: 3000,
     host: true
   },
-  // build先をdocsにする
+  base: '/kit-useful-links/',
   build: {
     outDir: 'docs',
     emptyOutDir: true,
