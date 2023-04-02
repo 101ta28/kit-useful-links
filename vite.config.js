@@ -41,4 +41,11 @@ export default defineConfig({
   },
   // https://101ta28.github.io/kit-useful-links/ でデプロイできるようにする
   base: '/kit-useful-links/',
+  build: {
+    rollupOptions: {
+      input: {
+        main: fileURLToPath(new URL('./index.html', import.meta.url)),
+      }
+    }
+  }
 })
