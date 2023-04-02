@@ -39,14 +39,4 @@ export default defineConfig({
     port: 3000,
     host: true
   },
-  base: '/kit-useful-links/',
-  build: {
-    outDir: 'docs',
-    emptyOutDir: true,
-    rollupOptions: {
-      input: {
-        main: fileURLToPath(new URL('./index.html', import.meta.url)),
-      },
-    },
-  },
 })

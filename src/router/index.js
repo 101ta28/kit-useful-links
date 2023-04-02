@@ -17,7 +17,7 @@ const routes = [
     ],
   },
   {
-    path: '/links',
+    path: '/kit-useful-links//links',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
@@ -31,7 +31,7 @@ const routes = [
     ],
   },
   {
-    path: '/contact',
+    path: '/kit-useful-links/contact',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
