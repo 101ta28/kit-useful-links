@@ -9,7 +9,7 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    vue({ 
+    vue({
       template: { transformAssetUrls }
     }),
     // https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vite-plugin
@@ -38,5 +38,15 @@ export default defineConfig({
   server: {
     port: 3000,
     host: true
+  },
+  // build先をdocsにする
+  build: {
+    outDir: 'docs',
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: fileURLToPath(new URL('./index.html', import.meta.url)),
+      },
+    },
   },
 })
