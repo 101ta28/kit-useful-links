@@ -39,5 +39,6 @@ export default defineConfig({
     port: 3000,
     host: true
   },
-  outDir: 'docs',
+  // https://101ta28.github.io/kit-useful-links/ でデプロイできるようにする
+  base: '/kit-useful-links/',
 })
