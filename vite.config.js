@@ -39,5 +39,5 @@ export default defineConfig({
     port: 3000,
     host: true
   },
-  base: '/kit-useful-links/',
+  base: process.env.NODE_ENV === 'production' ? '/kit-useful-links/' : './',
 })
