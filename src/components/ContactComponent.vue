@@ -16,7 +16,7 @@
                     </v-btn>
                 </v-col>
                 <v-col cols="12">
-                    <v-btn class="mx-auto" variant="outlined" href="https://github.com/101ta28">
+                    <v-btn class="mx-auto" variant="outlined" href="https://github.com/101ta28/kit-useful-links">
                         GitHub
                     </v-btn>
                 </v-col>
