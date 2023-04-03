@@ -1,8 +1,8 @@
 <template>
   <v-container class="fill-height">
     <v-responsive class="d-flex align-center text-center fill-height">
-      <v-row v-for="card in cards" :key="card.id">
-        <v-col cols="12">
+      <v-row>
+        <v-col cols="12" md="6" v-for="card in cards" :key="card.id">
           <v-card class="mx-auto">
             <v-card-text>
               <p class="text-h6 text--primary">
