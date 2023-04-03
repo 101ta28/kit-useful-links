@@ -92,6 +92,13 @@ const cards = ref([
     text: 'キャンパスマップや八束穂行きバスの時刻表があります。3,4年生ぐらいで使う事が多そう。',
     link: 'https://www.kanazawa-it.ac.jp/about_kit/yatsukaho.html'
   },
+  {
+    id: 9,
+    title: 'SAKITO',
+    isCampusOnly: false,
+    text: 'ガチャやアンケートに答え、貯まったポイントで学食やお菓子などの無料券ガチャが引けるサービス。CirKitという学内プロジェクトが開発している。',
+    link: 'https://sakito.cirkit.jp'
+  },
 ])
 
 </script>
