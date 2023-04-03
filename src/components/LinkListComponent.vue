@@ -85,6 +85,13 @@ const cards = ref([
     text: 'お手製マップですが、よければ。追加・編集したい方はホームのお問い合わせからどうぞ。',
     link: 'https://www.google.com/maps/d/viewer?mid=1kccbRkv4Y-4MI0OQ5vmAPo23L4PGvsht&ll=36.53082975247226%2C136.6296847887069&z=16'
   },
+  {
+    id: 8,
+    title: 'やつかほリサーチキャンパス',
+    isCampusOnly: false,
+    text: 'キャンパスマップや八束穂行きバスの時刻表があります。3,4年生ぐらいで使う事が多そう。',
+    link: 'https://www.kanazawa-it.ac.jp/about_kit/yatsukaho.html'
+  },
 ])
 
 </script>
