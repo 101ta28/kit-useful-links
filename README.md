@@ -1,4 +1,4 @@
-# base
+# https://kit-useful-links.netlify.app
 
 ## Project setup
 
@@ -51,7 +51,3 @@ npm run lint
 # pnpm
 pnpm lint
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
