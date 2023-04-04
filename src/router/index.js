@@ -17,7 +17,7 @@ const routes = [
     ],
   },
   {
-    path: '//links',
+    path: '/links',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
